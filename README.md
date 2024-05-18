@@ -45,9 +45,3 @@ This prototype...
 This prototype...
 
 <br>
-
-## Prototype 4
-
-This prototype...
-
-<br>
