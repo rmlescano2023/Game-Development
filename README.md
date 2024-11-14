@@ -101,7 +101,28 @@
 
 ## Prototype 1
 
-This prototype...
+This car game consists of three primary scripts that control the player's car movement, camera positioning, and the movement of obstacles within the game world.
+
+1. **PlayerController Script:**
+   The `PlayerController` script manages the player's car movement. The car's movement is controlled by player input, where:
+   - **Forward/Backward Movement:** The car moves forward and backward based on vertical input (W/S or up/down arrow keys).
+   - **Turning:** The car turns left and right depending on the horizontal input (A/D or left/right arrow keys).
+   - The `speed` and `turnSpeed` variables allow the car's velocity and turning rate to be adjusted. The movement is smoothed out with `Time.deltaTime` to ensure consistent gameplay across different frame rates.
+
+2. **CameraMovement Script:**
+   The `CameraMovement` script controls the camera's follow behavior. The camera is always positioned behind the player's car with a fixed offset. The offset ensures the camera stays at a consistent position relative to the car, creating a smooth and dynamic view of the gameplay. The `LateUpdate()` function ensures that the camera updates its position after the car has moved in each frame, maintaining a responsive following system.
+
+3. **ObstacleMovement Script:**
+   The `ObstacleMovement` script governs the movement of obstacles within the game. In this case, the obstacles move horizontally within a defined range:
+   - The obstacles will move left or right across the screen, and upon reaching the set limits (`leftLimit` and `rightLimit`), the direction will reverse.
+   - This creates a dynamic environment where obstacles continuously move, adding a challenge for the player to avoid.
+
+### Key Features:
+- **Player Car Movement:** Controlled by keyboard input, with smooth forward/backward motion and turning.
+- **Camera Follow:** Camera remains behind the car and follows it, providing an engaging third-person view.
+- **Dynamic Obstacles:** Obstacles move horizontally across the screen, creating an additional challenge as the player must avoid them while driving.
+
+This car game is designed to be intuitive yet challenging, with simple controls and dynamic gameplay elements that keep the player engaged as they navigate through moving obstacles while controlling their speed and direction.
 
 <br>
 
