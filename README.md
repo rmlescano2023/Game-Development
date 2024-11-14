@@ -122,8 +122,6 @@ This car game consists of three primary scripts that control the player's car mo
 - **Camera Follow:** Camera remains behind the car and follows it, providing an engaging third-person view.
 - **Dynamic Obstacles:** Obstacles move horizontally across the screen, creating an additional challenge as the player must avoid them while driving.
 
-This car game is designed to be intuitive yet challenging, with simple controls and dynamic gameplay elements that keep the player engaged as they navigate through moving obstacles while controlling their speed and direction.
-
 <br>
 
 ## Prototype 2
