@@ -61,6 +61,7 @@
 * Apply appropriate sound and visual effects.
 * Other visual effects can be made or imported as long as you understand how it works.
 
+<br>
 3. Be creative!
 * Explore the animator, particle effects, and sound effects as well as different gamemechanics and simple physics.
 * You can get wacky and creative with your output but it should have the aboverequirements in the end product.
