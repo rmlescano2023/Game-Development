@@ -50,7 +50,8 @@
 
 ### Powerups:
 * Create at least two powerups. The Balloon and the Bomb.
-> The Balloon will allow the player to do a second jump or carry the playerupwards a second time. This cannot be used while on ground. In theexample, the balloon will attach itself to the player once picked up. Thismove is bound with the Spacebar/Jump Key.
+> The Balloon will allow the player to do a second jump or carry the playerupwards a second time. This cannot be used while on ground. In the example, the balloon will attach itself to the player once picked up. This move is bound with the Spacebar/Jump Key.
+> 
 > The Bomb will allow the player to throw it to destroy obstacles and/or anyother game objects (including powerups). When thrown by the player, thebomb explodes and destroys everything (excluding the player, ground, andbackground) in a certain radius. This may only be performed when on theground. This move is bound to the Fire key (left mouse click).In theexample, the bomb is carried by the player on its right hand when pickedup.
 * When not picked up, the powerups bomb in the air. You may also add certainvisual effects to emphasize that they are to be picked up.
 * In the example, only one of each type can be picked up at a given time, theothers are destroyed. However, you may change this to have multiplepowerups of the same type at a time!
