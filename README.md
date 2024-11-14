@@ -38,7 +38,7 @@
 ### Player:
 * Player will use a humanoid (farmer or city worker) sprite
 * Player can do the following inputs:
-> Jump: Press Spacebar to make the player jump. Utilize Rigidbody Physics.2. Crouch/Slide: Press the Down Arrow Key or S key to make the Player Slide.You may change the size of the collider here or have 2 different collidercomponents which you can turn on or off. Other approaches would also bewelcome.
+> Jump: Press Spacebar to make the player jump. Utilize Rigidbody Physics.2. Crouch/Slide: Press the Down Arrow Key or S key to make the Player Slide. You may change the size of the collider here or have 2 different collidercomponents which you can turn on or off. Other approaches would also bewelcome.
 * There are a bunch of animations that are given along with the sprite. Makesure to select the appropriate animation for each action. You may change, add,or manipulate the animation parameters as well as the animation map toachieve what you want.
 
 ### Background and obstacles:
@@ -46,7 +46,24 @@
 * Obstacles must also be procedurally generated.
 * There must be at least 2 types of obstacles. One which the player can jumpover, and one that the player can crouch to avoid.
 * Make sure that the player has a “way-out” of every situation. There should beno obstacle that is impossible for the player to avoid or get through.
-* Nice to have: background and obstacles have the same theme. i.e (wildernessand tree branches, suburban area and fences, etc)
+* Nice to have: background and obstacles have the same theme. i.e (wildernessand tree branches, suburban area and fences, etc).
+
+### Powerups:
+* Create at least two powerups. The Balloon and the Bomb.
+> The Balloon will allow the player to do a second jump or carry the playerupwards a second time. This cannot be used while on ground. In theexample, the balloon will attach itself to the player once picked up. Thismove is bound with the Spacebar/Jump Key.
+> The Bomb will allow the player to throw it to destroy obstacles and/or anyother game objects (including powerups). When thrown by the player, thebomb explodes and destroys everything (excluding the player, ground, andbackground) in a certain radius. This may only be performed when on theground. This move is bound to the Fire key (left mouse click).In theexample, the bomb is carried by the player on its right hand when pickedup.
+* When not picked up, the powerups bomb in the air. You may also add certainvisual effects to emphasize that they are to be picked up.
+* In the example, only one of each type can be picked up at a given time, theothers are destroyed. However, you may change this to have multiplepowerups of the same type at a time!
+
+### Sound and Particle effects:
+* Game must have a background music.
+* Apply appropriate sound and visual effects.
+* Other visual effects can be made or imported as long as you understand how it works.
+
+3. Be creative!
+* Explore the animator, particle effects, and sound effects as well as different gamemechanics and simple physics.
+* You can get wacky and creative with your output but it should have the aboverequirements in the end product.
+* If you can, you may improve on certain aspects of the game as well!
 
 <br>
 
