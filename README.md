@@ -67,12 +67,26 @@
 * You can get wacky and creative with your output but it should have the above requirements in the end product.
 * If you can, you may improve on certain aspects of the game as well!
 
-
 <br>
 
 ## Machine Problem 4
 
-In this laboratory exercise,
+**Instructions:**
+1. Using the Assets from the Unity package that comes along with this file(MP4.unitypackage), create a game that is similar to the attached zip file, MP4_Whack-aZombie.zip. Download and extract the zip file to play the attached game.
+2. Specifications:
+### Player Controls
+* The player must be able to select the difficulty or intensity of the game fromthe title screen.
+* The player will use left mouse click to defeat a ghoul that rises from the grave.iii. Points can be gained from every ghoul defeated.
+### Ghouls:
+* 3 types of ghouls can be spawned from the 15 graves in the graveyard.
+* Depending on the difficulty/intensity of the game, a number of ghouls can popup at a time. In the given example, WHACK! Will spawn 1 ghoul every 2.5 ~ 3seconds. WHACK!! spawns 2 every 2.5s ~ 3s and WHACK!!! spawns 3 ghoulsevery 1.5s ~ 2s.
+* Ghouls will only start spawning after the player clicks on a specificdifficulty/intensity.
+* Ghouls can only be defeated within 60 seconds, after which they cannot beclicked on and they will stop spawning.
+* Ghouls may only spawn at a grave that is not occupied by another ghoul.
+* Ghouls should have varying score values when defeated. In the example, theVampire provides 3 points while the skeleton and zombie provide 1.
+* Ghouls return to the grave after 3 seconds after spawn. You may choose tomake this time shorter.
+* Dirt particle effects should be played whenever the ghoul rises, dies, or goesback to the ground.
+
 
 <br>
 
