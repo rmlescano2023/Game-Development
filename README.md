@@ -86,7 +86,15 @@
 * Ghouls should have varying score values when defeated. In the example, theVampire provides 3 points while the skeleton and zombie provide 1.
 * Ghouls return to the grave after 3 seconds after spawn. You may choose tomake this time shorter.
 * Dirt particle effects should be played whenever the ghoul rises, dies, or goesback to the ground.
+### UI Elements
+* Start screen should have the title of the game and 3 buttons to select from.These buttons will dictate the intensity of the game.
+* Score and time should show up after the game begins. The score should beupdated whenever the player defeats a ghoul. Time should be updated everysecond.
+* After the time is over, the game over screen will be displayed and the scoreand time displays should disappear. A restart button should also be shown thatrestarts the game back to the title screen when clicked.
 
+3. Be creative!
+* Explore the animator, various fonts, and various sprites that can be used for thegame.
+* You may import fonts directly to unity by dragging it to the project explorer window.You can then transform these fonts to font assets that can be used by text meshpro.
+* You can find more sprites from the unity store or from kenney.nl. The assets used inthe package are from kenney after all.
 
 <br>
 
