@@ -32,7 +32,20 @@
 
 ## Machine Problem 3
 
-In this laboratory exercise,
+**Instructions:**
+1. Using the Assets from Unit 3: Sound and Effects and Challenge 3: Balloons, Bombs, &Booleans, create a game that is similar to the attached file Machine_Problem_3.zip.
+2. Specifications:
+* Player:
+i. Player will use a humanoid (farmer or city worker) sprite
+ii. Player can do the following inputs:
+1. Jump: Press Spacebar to make the player jump. Utilize Rigidbody Physics.2. Crouch/Slide: Press the Down Arrow Key or S key to make the Player Slide.You may change the size of the collider here or have 2 different collidercomponents which you can turn on or off. Other approaches would also bewelcome.
+iii. There are a bunch of animations that are given along with the sprite. Makesure to select the appropriate animation for each action. You may change, add,or manipulate the animation parameters as well as the animation map toachieve what you want.
+b) Background and obstacles:
+i. Background and obstacle must be proceduraly generated. It must seem thatthe background is seamless.
+ii. Obstacles must also be procedurally generated.
+iii. There must be at least 2 types of obstacles. One which the player can jumpover, and one that the player can crouch to avoid.
+iv. Make sure that the player has a “way-out” of every situation. There should beno obstacle that is impossible for the player to avoid or get through.
+v. Nice to have: background and obstacles have the same theme. i.e (wildernessand tree branches, suburban area and fences, etc)
 
 <br>
 
