@@ -97,6 +97,7 @@
 * You may import fonts directly to unity by dragging it to the project explorer window.You can then transform these fonts to font assets that can be used by text meshpro.
 * You can find more sprites from the unity store or from kenney.nl. The assets used inthe package are from kenney after all.
 
+
 <br>
 
 ## Prototype 1
