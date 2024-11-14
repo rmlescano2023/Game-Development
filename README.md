@@ -91,7 +91,6 @@
 * Score and time should show up after the game begins. The score should beupdated whenever the player defeats a ghoul. Time should be updated everysecond.
 * After the time is over, the game over screen will be displayed and the scoreand time displays should disappear. A restart button should also be shown thatrestarts the game back to the title screen when clicked.
 
-<br>
 3. Be creative!
 * Explore the animator, various fonts, and various sprites that can be used for thegame.
 * You may import fonts directly to unity by dragging it to the project explorer window.You can then transform these fonts to font assets that can be used by text meshpro.
